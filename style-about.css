@@ -1,9 +1,11 @@
 .About{
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/background\ test2.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
     text-align: center;
-    padding: 100px;
-    min-height: 80vh;
 }
 h2 {
     margin-top: 2%;
@@ -29,12 +31,13 @@ p {
 }
 
 .skills-col {
-    flex-basis: 100%;
+    flex-basis: 50%;
 }
 img {
     height: 50px;
 }
 
 .idPic{
+    padding-top: 100px;
     height: 150px;
 }
